@@ -9,6 +9,7 @@ import {
 import OfferHeader from "./components/layout/offerHeader/OfferHeader";
 import SettingsHeader from "./components/layout/settingsHeader/SettingsHeader";
 import MainHeader from "./components/layout/mainHeader/MainHeader";
+import CategoriesHeader from "./components/layout/categoriesHeader/CategoriesHeader";
 const App = () => {
   // handle scroll to top after page change
   function ScrollToTopAfterChangePage() {
@@ -25,6 +26,7 @@ const App = () => {
       <OfferHeader />
       <SettingsHeader />
       <MainHeader />
+      <CategoriesHeader />
     </Router>
   );
 };
