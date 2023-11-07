@@ -6,9 +6,11 @@
 body {
   overflow-x: hidden;
   text-transform: capitalize;
+  font-family: "Tajawal";
 }
 html {
   scroll-behavior: smooth;
+  font-family: "Tajawal";
 }
 a {
   text-decoration: none !important;
@@ -28,5 +30,10 @@ li {
   --yellowColor: #f3de6d;
 }
 /* end variables */
-
+/* bootstrap classes */
+.dropdown-menu.show {
+  text-align: start !important;
+  margin-top: 7px !important;
+  width: fit-content !important;
+}
 /* ratio 0.61 */

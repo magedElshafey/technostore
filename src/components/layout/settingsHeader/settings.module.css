@@ -1,0 +1,27 @@
+.mainDiv {
+  background-color: var(--navColor);
+  width: 100vw;
+  padding: 8px 190px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid white;
+}
+.welcome {
+  font-weight: 400;
+  font-size: 10px;
+}
+.follow {
+  font-weight: 400;
+  font-size: 10px;
+}
+.line {
+  width: 1px;
+  opacity: 0.16;
+}
+.select {
+  background-color: transparent !important;
+  border: none;
+  color: #ffffff;
+  width: 27px;
+  text-transform: uppercase;
+}

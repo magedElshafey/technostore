@@ -7,6 +7,7 @@ import {
   useLocation,
 } from "react-router-dom";
 import OfferHeader from "./components/layout/offerHeader/OfferHeader";
+import SettingsHeader from "./components/layout/settingsHeader/SettingsHeader";
 const App = () => {
   // handle scroll to top after page change
   function ScrollToTopAfterChangePage() {
@@ -18,8 +19,10 @@ const App = () => {
   }
   return (
     <Router>
+      {/*shared layout*/}
       <ScrollToTopAfterChangePage />
       <OfferHeader />
+      <SettingsHeader />
     </Router>
   );
 };
