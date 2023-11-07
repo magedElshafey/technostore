@@ -1,0 +1,14 @@
+.btn {
+  padding: 0 15px;
+  border: none;
+  background-color: var(--buttonColor);
+  border-radius: 2px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.168px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+}
