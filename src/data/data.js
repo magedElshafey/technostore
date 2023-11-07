@@ -56,3 +56,4 @@ export const linksFooter = {
     },
   ],
 };
+export const mobileMenu = ["categories", "links", "settings"];

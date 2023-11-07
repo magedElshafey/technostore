@@ -1,0 +1,61 @@
+.navContainer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 8888;
+  background-color: white;
+  width: 100vw;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px -1px 0px 0px #e4e7e9 inset;
+}
+.logo {
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+}
+.tecno {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.64px;
+}
+.icon {
+  color: var(--navColor) !important;
+}
+.sidebar {
+  background-color: var(--darkColor);
+  position: fixed;
+  width: 320px;
+  height: 100vh;
+  z-index: 99999;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+.right.show {
+  right: 0;
+}
+.right.hide {
+  right: -300%;
+}
+.left.show {
+  left: 0;
+}
+.left.hide {
+  left: -300%;
+}
+.close {
+  color: var(--buttonColor) !important;
+  opacity: 10 !important;
+}
+.links:hover {
+  color: var(--buttonColor) !important;
+  border-bottom: 1px solid var(--buttonColor);
+}
+.links.active {
+  color: var(--buttonColor) !important;
+  border-bottom: 1px solid var(--buttonColor);
+}

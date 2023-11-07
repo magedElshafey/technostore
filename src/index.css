@@ -37,3 +37,7 @@ li {
   width: fit-content !important;
 }
 /* ratio 0.61 */
+/* utility classes */
+.pointer {
+  cursor: pointer;
+}
