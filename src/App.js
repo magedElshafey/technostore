@@ -6,10 +6,14 @@ import {
   Routes,
   useLocation,
 } from "react-router-dom";
+// data
+import { categoriesFooter, linksFooter } from "./data/data";
+// shared layout
 import OfferHeader from "./components/layout/offerHeader/OfferHeader";
 import SettingsHeader from "./components/layout/settingsHeader/SettingsHeader";
 import MainHeader from "./components/layout/mainHeader/MainHeader";
 import CategoriesHeader from "./components/layout/categoriesHeader/CategoriesHeader";
+import Footer from "./components/layout/footer/Footer";
 const App = () => {
   // handle scroll to top after page change
   function ScrollToTopAfterChangePage() {
@@ -27,6 +31,7 @@ const App = () => {
       <SettingsHeader />
       <MainHeader />
       <CategoriesHeader />
+      <Footer categories={categoriesFooter} link={linksFooter} />
     </Router>
   );
 };

@@ -1,0 +1,82 @@
+.mainDiv {
+  width: 100vw;
+  background-color: var(--darkColor);
+}
+.logo {
+  width: 31px;
+  height: 31px;
+  object-fit: cover;
+}
+.tecno {
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: -0.64px;
+}
+.text,
+.bigText {
+  color: #e4e7e9;
+
+  font-weight: 700;
+}
+.text {
+  font-size: 12px;
+}
+.bigText {
+  font-size: 15px;
+}
+.title {
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.link {
+  color: #929fa5;
+  font-size: 14px;
+  font-weight: 500;
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+}
+.link:hover {
+  color: var(--buttonColor);
+  transform: translateX(5px);
+  -webkit-transform: translateX(5px);
+  -moz-transform: translateX(5px);
+  -ms-transform: translateX(5px);
+  -o-transform: translateX(5px);
+}
+.btn {
+  border: none;
+  width: 100% !important;
+  background-color: var(--buttonColor);
+}
+.app {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 400;
+}
+.app2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+}
+.copyRight {
+  border-top: 1px solid #929fa5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30px;
+}
+.copyrightText {
+  color: #adb7bc;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+}
+.browse {
+  color: var(--buttonColor);
+  font-size: 14px;
+  font-weight: 500;
+}
