@@ -7,7 +7,12 @@ import {
   useLocation,
 } from "react-router-dom";
 // data
-import { categoriesFooter, linksFooter, mobileMenu } from "./data/data";
+import {
+  categoriesFooter,
+  linksFooter,
+  mobileMenu,
+  weoffer,
+} from "./data/data";
 // shared layout
 import OfferHeader from "./components/layout/offerHeader/OfferHeader";
 import SettingsHeader from "./components/layout/settingsHeader/SettingsHeader";
@@ -37,7 +42,7 @@ const App = () => {
       <MainHeader />
       <CategoriesHeader />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Home weoffer={weoffer} />} />
       </Routes>
       <NewsLetter />
       <Footer categories={categoriesFooter} link={linksFooter} />

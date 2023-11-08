@@ -1,3 +1,9 @@
+// assets
+// we offer assets
+import offer1 from "../assets/offer-01.svg";
+import offer2 from "../assets/offer-02.svg";
+import offer3 from "../assets/offer-03.svg";
+import offer4 from "../assets/offer-04.svg";
 export const categoriesFooter = {
   title: "Top Category",
   details: [
@@ -57,3 +63,25 @@ export const linksFooter = {
   ],
 };
 export const mobileMenu = ["categories", "links", "settings"];
+export const weoffer = [
+  {
+    img: offer1,
+    title: "Fasted Delivery",
+    desc: "Delivery in 24/H",
+  },
+  {
+    img: offer2,
+    title: "Support 24/7",
+    desc: "Live contact/message",
+  },
+  {
+    img: offer3,
+    title: "24 Hours Return",
+    desc: "100% money-back guarantee",
+  },
+  {
+    img: offer4,
+    title: "Secure Payment",
+    desc: "Your money is safe",
+  },
+];
