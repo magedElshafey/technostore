@@ -224,3 +224,5 @@ export const shopWithCategories = [
     path: "/",
   },
 ];
+export const firstFilter = ["all product", "category", "category", "category"];
+export const secondFilter = ["all product", "category", "category", "category"];

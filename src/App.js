@@ -14,6 +14,8 @@ import {
   weoffer,
   dealsProduct,
   shopWithCategories,
+  firstFilter,
+  secondFilter,
 } from "./data/data";
 // shared layout
 import OfferHeader from "./components/layout/offerHeader/OfferHeader";
@@ -51,6 +53,8 @@ const App = () => {
               weoffer={weoffer}
               deals={dealsProduct}
               shopWithCategories={shopWithCategories}
+              firstFilter={firstFilter}
+              secondFilter={secondFilter}
             />
           }
         />
