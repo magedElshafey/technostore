@@ -1,0 +1,15 @@
+.mainDiv {
+    width: 100vw;
+    height: 285px;
+    background-color: var(--sectionColor);
+    display: flex;
+    align-items: center;
+}
+.shop {
+    color: var(--darkColor);
+
+font-size: 20px;
+
+font-weight: 600;
+
+}

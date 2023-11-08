@@ -42,3 +42,29 @@ li {
 .pointer {
   cursor: pointer;
 }
+.swiper-button-prev , .swiper-button-next {
+  padding: 0;
+  margin: 0;
+  width: 38px;
+  height: 38px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--buttonColor) !important;
+  color: white !important;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.swiper-button-prev::after , .swiper-button-next:after {
+  
+  font-size: 17px !important;
+}
+.swiper-button-next {
+  right: 0 !important;
+}
+.swiper-button-prev {
+  left: 0 !important;
+}

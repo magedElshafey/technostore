@@ -13,6 +13,7 @@ import {
   mobileMenu,
   weoffer,
   dealsProduct,
+  shopWithCategories,
 } from "./data/data";
 // shared layout
 import OfferHeader from "./components/layout/offerHeader/OfferHeader";
@@ -45,7 +46,13 @@ const App = () => {
       <Routes>
         <Route
           path="/"
-          element={<Home weoffer={weoffer} deals={dealsProduct} />}
+          element={
+            <Home
+              weoffer={weoffer}
+              deals={dealsProduct}
+              shopWithCategories={shopWithCategories}
+            />
+          }
         />
       </Routes>
       <NewsLetter />
