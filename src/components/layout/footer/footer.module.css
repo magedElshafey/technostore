@@ -80,3 +80,8 @@
   font-size: 14px;
   font-weight: 500;
 }
+.icon {
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: var(--buttonColor) !important;
+}
