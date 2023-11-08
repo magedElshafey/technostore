@@ -12,6 +12,8 @@ import {
   AiOutlineClose,
   AiOutlineTwitter,
   AiOutlineInstagram,
+  AiOutlineHeart,
+  AiOutlineShoppingCart,
 } from "react-icons/ai";
 import { BsFacebook } from "react-icons/bs";
 import { FaPinterestP } from "react-icons/fa";
@@ -41,11 +43,21 @@ const MobileHeader = ({ links }) => {
                   TechnoStore
                 </p>
               </div>
-              <AiOutlineMenu
-                onClick={handleShowSidebar}
-                size={30}
-                className={`${style.icon} pointer`}
-              />
+              <div className="d-flex align-items-center gap-1">
+                <AiOutlineShoppingCart
+                  size={20}
+                  className={`pointer ${style.cart}`}
+                />
+                <AiOutlineHeart
+                  size={20}
+                  className={`pointer ${style.heart}`}
+                />
+                <AiOutlineMenu
+                  onClick={handleShowSidebar}
+                  size={30}
+                  className={`${style.icon} pointer`}
+                />
+              </div>
             </div>
             <div className={`mt-2 ${style.inputContainer}`}>
               <input

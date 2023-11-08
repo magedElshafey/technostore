@@ -5,7 +5,7 @@ import MainBtn from "../../utils/mainBtn/MainBtn";
 const NewsLetter = () => {
   return (
     <div className={style.mainDiv}>
-      <div className="container">
+      <div className="container pt-2">
         <p className={`m-0 p-0 mb-1 ${style.sub} text-white text-center`}>
           Subscribe to our newsletter
         </p>

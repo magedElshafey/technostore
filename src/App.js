@@ -16,6 +16,8 @@ import CategoriesHeader from "./components/layout/categoriesHeader/CategoriesHea
 import Footer from "./components/layout/footer/Footer";
 import NewsLetter from "./components/layout/newsLetter/NewsLetter";
 import MobileHeader from "./components/layout/mobileHeader/MobileHeader";
+// pages
+import Home from "./pages/Home";
 const App = () => {
   // handle scroll to top after page change
   function ScrollToTopAfterChangePage() {
@@ -34,6 +36,9 @@ const App = () => {
       <SettingsHeader />
       <MainHeader />
       <CategoriesHeader />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
       <NewsLetter />
       <Footer categories={categoriesFooter} link={linksFooter} />
     </Router>
