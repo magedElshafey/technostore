@@ -5,6 +5,8 @@ import Deals from "../components/home/deals/Deals";
 import Shop from "../components/home/shop/Shop";
 import FilterByCategory from "../components/home/filterByCategory/FilterByCategory";
 import DoubleBanner from "../components/home/doubleBanner/DoubleBanner";
+import SingleBanner from "../components/home/singleBanner/SingleBanner";
+import Blogs from "../components/home/blogs/Blogs";
 
 const Home = ({
   weoffer,
@@ -34,6 +36,8 @@ const Home = ({
         data={deals}
         filters={secondFilter}
       />
+      <SingleBanner />
+      <Blogs />
     </div>
   );
 };
