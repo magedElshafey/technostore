@@ -4,6 +4,8 @@ import offer1 from "../assets/offer-01.svg";
 import offer2 from "../assets/offer-02.svg";
 import offer3 from "../assets/offer-03.svg";
 import offer4 from "../assets/offer-04.svg";
+// product
+import product from "../assets/product.png";
 export const categoriesFooter = {
   title: "Top Category",
   details: [
@@ -83,5 +85,80 @@ export const weoffer = [
     img: offer4,
     title: "Secure Payment",
     desc: "Your money is safe",
+  },
+];
+export const dealsProduct = [
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+    status: "sold",
+    reveiw: 65,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+    offer: false,
+  },
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+    status: "",
+    reveiw: 8,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+    offer: true,
+  },
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+
+    status: "best",
+    reveiw: 20,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+    offer: false,
+  },
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+    status: "sale",
+    reveiw: 5,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+    offer: false,
+  },
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+    status: "",
+    reveiw: 3,
+    offer: true,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+  },
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+    status: "off",
+    reveiw: 6.021,
+    offer: true,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+  },
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+    status: "sold",
+    reveiw: 3.02,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+    offer: true,
+  },
+  {
+    img: product,
+    title: "Lorem Ipsum is simply dummy text of the printing ",
+    status: "hot",
+    reveiw: 6.5,
+    orignalPrice: 865.99,
+    currentPrice: 442.12,
+    offer: true,
   },
 ];
