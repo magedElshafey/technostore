@@ -11,6 +11,8 @@ import cat1 from "../assets/cat-01.png";
 import cat2 from "../assets/cat-02.png";
 import cat3 from "../assets/cat-03.png";
 import cat4 from "../assets/cat-04.png";
+// blogs
+import blog from "../assets/blog.png";
 export const categoriesFooter = {
   title: "Top Category",
   details: [
@@ -226,3 +228,26 @@ export const shopWithCategories = [
 ];
 export const firstFilter = ["all product", "category", "category", "category"];
 export const secondFilter = ["all product", "category", "category", "category"];
+export const blogs = [
+  {
+    img: blog,
+    title:
+      "Praesent fringilla erat a lacinia egestas donec vehicula tempor libero et cursus.",
+    desc: "Suspendisse iaculis, mi nec suscipit aliquet, ante lectus eleifend dui, in viverra magna purus ac dia suspendie potenti acenas ornare.",
+    btnText: "read more",
+  },
+  {
+    img: blog,
+    title:
+      "Praesent fringilla erat a lacinia egestas donec vehicula tempor libero et cursus.",
+    desc: "Suspendisse iaculis, mi nec suscipit aliquet, ante lectus eleifend dui, in viverra magna purus ac dia suspendie potenti acenas ornare.",
+    btnText: "read more",
+  },
+  {
+    img: blog,
+    title:
+      "Praesent fringilla erat a lacinia egestas donec vehicula tempor libero et cursus.",
+    desc: "Suspendisse iaculis, mi nec suscipit aliquet, ante lectus eleifend dui, in viverra magna purus ac dia suspendie potenti acenas ornare.",
+    btnText: "read more",
+  },
+];

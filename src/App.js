@@ -16,6 +16,7 @@ import {
   shopWithCategories,
   firstFilter,
   secondFilter,
+  blogs,
 } from "./data/data";
 // shared layout
 import OfferHeader from "./components/layout/offerHeader/OfferHeader";
@@ -55,6 +56,7 @@ const App = () => {
               shopWithCategories={shopWithCategories}
               firstFilter={firstFilter}
               secondFilter={secondFilter}
+              blogs={blogs}
             />
           }
         />

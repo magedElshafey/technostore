@@ -68,3 +68,7 @@ li {
 .swiper-button-prev {
   left: 0 !important;
 }
+.svg {
+  color: #77878f !important;
+  opacity: 0.4 !important;
+}

@@ -4,7 +4,7 @@ import style from "./news.module.css";
 import MainBtn from "../../utils/mainBtn/MainBtn";
 const NewsLetter = () => {
   return (
-    <div className={style.mainDiv}>
+    <div className={`m-0 p-0 ${style.mainDiv}`}>
       <div className="container pt-2">
         <p className={`m-0 p-0 mb-1 ${style.sub} text-white text-center`}>
           Subscribe to our newsletter
@@ -28,6 +28,7 @@ const NewsLetter = () => {
             height="72"
             viewBox="0 0 72 72"
             fill="none"
+            className="svg"
           >
             <g clip-path="url(#clip0_29_736)">
               <path
@@ -62,6 +63,7 @@ const NewsLetter = () => {
             </defs>
           </svg>
           <svg
+            className="svg"
             xmlns="http://www.w3.org/2000/svg"
             width="72"
             height="72"
@@ -88,6 +90,7 @@ const NewsLetter = () => {
             />
           </svg>
           <svg
+            className="svg"
             xmlns="http://www.w3.org/2000/svg"
             width="72"
             height="72"
@@ -100,6 +103,7 @@ const NewsLetter = () => {
             />
           </svg>
           <svg
+            className="svg"
             xmlns="http://www.w3.org/2000/svg"
             width="72"
             height="72"
@@ -114,6 +118,7 @@ const NewsLetter = () => {
             />
           </svg>
           <svg
+            className="svg"
             xmlns="http://www.w3.org/2000/svg"
             width="72"
             height="72"

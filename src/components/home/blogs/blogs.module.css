@@ -1,0 +1,23 @@
+.mainDiv {
+    width: 100vw;
+    background: rgba(254, 189, 23, 0.33);
+   
+}
+@media screen and (max-width : 992px) {
+    .mainDiv {
+        height: auto;
+    }
+}
+.title {
+    color: var(--darkColor);
+font-size: 28px;
+font-weight: 600;
+}
+.link {
+    color: var(--darkColor);
+font-size: 18px;
+font-weight: 700;
+}
+.icon {font-size: 18px !important;
+    font-weight: 700 !important;
+}

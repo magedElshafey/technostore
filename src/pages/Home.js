@@ -14,6 +14,7 @@ const Home = ({
   shopWithCategories,
   firstFilter,
   secondFilter,
+  blogs,
 }) => {
   return (
     <div className="py-4 mt-4 mt-md-0">
@@ -37,7 +38,7 @@ const Home = ({
         filters={secondFilter}
       />
       <SingleBanner />
-      <Blogs />
+      <Blogs data={blogs} />
     </div>
   );
 };

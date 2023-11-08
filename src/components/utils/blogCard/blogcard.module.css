@@ -1,0 +1,24 @@
+.card {
+    padding: 24px;
+    background-color: #fff;
+    box-shadow: 0px 8px 24px 0px rgba(0, 0, 0, 0.04);
+    border: 1px solid  #E4E7E9;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.mainImg {
+    height: 268px;
+    width: 100%;
+    object-fit: cover;
+}
+.title {
+    color: var(--darkColor);
+font-size: 18px;
+font-weight: 500;
+}
+.desc {
+    color: var #77878F;
+}

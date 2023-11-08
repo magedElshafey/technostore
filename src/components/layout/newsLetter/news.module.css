@@ -3,7 +3,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  margin-top: 0 !important;
+  padding-top: 0 !important;
   background-color: #1b6392;
 }
 .sub {
@@ -67,8 +68,5 @@
   color: #77878f;
   text-transform: capitalize;
 }
-svg {
-  color: #77878f !important;
-  opacity: 0.4;
-}
+
 
