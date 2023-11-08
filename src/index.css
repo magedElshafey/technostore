@@ -2,15 +2,16 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Tajawal', sans-serif;
 }
 body {
   overflow-x: hidden;
   text-transform: capitalize;
-  font-family: "Tajawal";
+ font-family: 'Tajawal', sans-serif;
 }
 html {
   scroll-behavior: smooth;
-  font-family: "Tajawal";
+ font-family: 'Tajawal', sans-serif;
 }
 a {
   text-decoration: none !important;
