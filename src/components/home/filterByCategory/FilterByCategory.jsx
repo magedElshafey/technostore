@@ -11,15 +11,15 @@ const FilterByCategory = ({ isReversed, isBg, text, data, filters }) => {
     <div className={`mb-5 ${style.mainDiv} ${isBg ? style.bg : null} `}>
       <div className="container py-3">
         <div className={`${isReversed ? "row flex-row-reverse" : "row"}`}>
-          <div className="col-12 col-lg-3">
+          <div className="col-12 col-md-6 mb-3 mb-lg-0 col-lg-3">
             <img
               alt="banner/img"
               className={style.mainImg}
               src={filterBanner}
             />
           </div>
-          <div className="col-12 col-lg-9">
-            <div className="d-flex align-items-center justify-content-between mb-4">
+          <div className="col-12 col-md-6 col-lg-9">
+            <div className="d-flex align-items-center flex-column flex-md-row gap-2 gap-md-0 justify-content-between mb-4">
               <p className={`m-0 p-0 ${style.title}`}>{text}</p>
               <div
                 className={`m-0 p-0 d-flex align-items-center gap-3 flex-wrap ${style.filterContainer}`}

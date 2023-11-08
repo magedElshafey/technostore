@@ -4,6 +4,7 @@ import WeOffer from "../components/home/weOffer/WeOffer";
 import Deals from "../components/home/deals/Deals";
 import Shop from "../components/home/shop/Shop";
 import FilterByCategory from "../components/home/filterByCategory/FilterByCategory";
+import DoubleBanner from "../components/home/doubleBanner/DoubleBanner";
 
 const Home = ({
   weoffer,
@@ -25,6 +26,7 @@ const Home = ({
         data={deals}
         filters={firstFilter}
       />
+      <DoubleBanner />
       <FilterByCategory
         isReversed={true}
         isBg={true}
