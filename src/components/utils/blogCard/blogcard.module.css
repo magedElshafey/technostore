@@ -25,3 +25,24 @@ font-weight: 500;
 .desc {
     color: var #77878F;
 }
+.btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 7px 25px;
+    border: 2px solid var(--buttonColor);
+    color: var(--buttonColor);
+    text-transform: uppercase;
+    background-color: transparent !important;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
+}
+.btn:hover {
+    background-color: var(--buttonColor) !important;
+    color: white !important;
+}
